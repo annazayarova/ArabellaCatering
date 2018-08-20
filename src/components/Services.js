@@ -256,13 +256,14 @@ loop:true,
     
      <ImageZoom
         image={{
-          src:'%PUBLIC_URL%/cateringdiarabella_2th.jpg',
+          src:'http://cateringdiarabella.com/img/cateringdiarabella_2th.jpg',
+
           alt: 'Catering di Arabella',
           className: '',
           style: { width: '' }
         }}
         zoomImage={{
-          src:'%PUBLIC_URL%/cateringdiarabella_2.jpg',
+          src:'http://cateringdiarabella.com/img/cateringdiarabella_2.jpg',
           alt: 'Catering di Arabella'
         }}
       />
