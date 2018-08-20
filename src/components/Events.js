@@ -100,7 +100,7 @@ const template = `<div class="col-insta"><div class="insta-post"><a href='{{link
       
 clientID="a8f4d7c2b079410898119bb6b805ecb6"
         userId='8289167578'
-        accessToken='8289167578.a8f4d7c.708e8e7608c0493993bdeac4f6937695'
+        accessToken='8289167578.a8f4d7c.fb34306193fc4444a1d6df3061957726'
       /> </div> </div>
    
  

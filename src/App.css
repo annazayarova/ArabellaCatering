@@ -691,7 +691,7 @@ img, svg{width: 100%}
     .lang{left:auto; right: 15px;top:5px;}
 
 }
-.lang .active{color:  var(--dark) !important}
+.lang .active{color:  var(--dark) }
 .lang .default{ color: var(--dark-4);}
 .lang button:hover{color: var(--dark)}
 .burger-menu,
