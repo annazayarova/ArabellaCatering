@@ -1,0 +1,77 @@
+{
+    "home": {
+        "text1": "Willst Du deine",
+        "text2": "Gäste überraschen?",
+        "text3": "Dann, sind wir Dein Catering",
+        "text4": "Willkommen in der",
+        "text5": "Catering Di Arabella",
+         "text6": "Who sich Gastronomie und Phantasie mit Liebe, Leidenschaft und Professionalität vermischen mit vielen vielen Charme!",
+         "text7": "Planung, Qualität und Leidenschaft in Details",
+        "text8": "Erfahren Sie mehr über",
+        "text8a": "unsere Dienstleistungen",
+
+        "text9": "Was sie über uns sagen"
+},
+     "about": {
+        "text1a": "Kultur und Peperoncino beißen",
+        "text1b": "Leidenschaft und Liebe,",
+        "text1c": "verherrlichen die Einfachheit, die",
+        "text1d": "Sie in allen unseren Rezepten finden",
+       "text2": "Wir respektieren die kulturellen Wurzeln jedes Gerichtes und fügen Modernität und Gleichzeitigkeit hinzu",
+          "text3a": " verfügt über eine umfangreiche und mehrjährige Erfahrung in der Gastronomie in Brasilien, insbesondere für kleine und mittelgroße Veranstaltungen. Sie war für über 14 Jahren verantwortlich und leitete ein Team von 75 Mitarbeitern, Catering-Services für mehr als 2700 Menschen / Mahlzeiten pro Tag in verschiedenen Marktsegmenten wie Banken, brasilianischen Marineabteilung, Metro in Rio de Janeiro für große Baufirmen; Hochzeiten und verschiedene Veranstaltungen. Gleichzeitig widmete Sie sich auch der Kreation und Entwicklung von Kulturprojekten und arbeitete mit den MAM von RJ zusammen, um die kulturelle Integration benachteiligter sozialer Schichten durch die Künste zu fördern. Erstellte verschiedene Veranstaltungen und Projekte für soziale Zwecke.",
+        "text3b": "Heute lebt Sie glücklich in der Schweiz und setzt sein Catering-Geschäft fort, stark beeinflusst von diesen fantastischen Erfahrungen, die Sie mit sich in seinem Gepäck aus Brasilien mitbrachte, wo die Leidenschaft für einen wunderbaren Tisch, für die Pflege und Liebe für das Essen und Kunst, werden die Gäste jedes Mal überraschen.",
+        "text3c": "Heute ist seine Abenteuer Gastro Cult Social, sowie die unermüdliche und ständige Forschung, die notwendig ist, um den Unterschied in jedem Job zu unterzeichnen.",
+         "text4": "Expertin für Organisation und von Veranstaltungen, stammt aus Rom und bringt eine große Erfahrung erworben in den besten römischen Hotels mit. Sie verwaltet Ihre Veranstaltung mit Energie, Leidenschaft und Professionalität und das Ergebnis überrascht jedes Mal."
+    },
+      
+    "services": {
+        
+        "text1a":"Frühstück Special Charming",
+          "text1b":"Coffee Break",  
+        "text1c":"Brunch",
+          "text1d":"Mittag und Abend Essen",
+          "text1e":"Finger Food Apero",
+          "text1f":"Buffet Apero",
+          "text1g":"Private Party",  
+        "text1h":"Banquet for Wedding",
+          "text1i":"BBQ Premium",
+        "text2a":"Planung, Qualität",
+         "text2b":"und Leidenschaft in",
+         "text2c":"Details den",
+         "text2d":"jeden verzaubert",
+        "text3":"Nachdem wir sorgfältig die Bedürfnisse und das Profil des Kunden und den Zweck der Veranstaltung analysiert haben, entwickeln wir ein personalisiertes DOC-Menü, das Aromen und Kreativität kombiniert mit einer tadellosen Produktion, die in jedem Detail dem Anlass entsprechend den internationalen Trends der Küche geheilt wird ein Ergebnis von Forschung und kontinuierlichem Reisen hervorbringen.",
+        "text4":"Unsere Mitarbeiter kümmern sich um jedes Detail",
+        "text5":"Die Vorbereitung und Dekoration von Tischen und Blumenarrangements und machen Ihre Veranstaltung einzigartig und unvergesslich für Sie, Ihre Firma und Ihre Gäste.",
+         "text6":"Wir verwenden nur Produkte und Zutaten kontrollierten Ursprungs",
+        "text7":"Unsere Desserts und unsere Kuchen sind frische und handwerkliche Produkte",
+        "text8":"Wir verwenden kein industrialisiertes Produkt"
+        
+        
+        
+    },
+     "testim": {
+        
+        "text1a":"Was sie",
+          "text1b":"über uns",  
+        "text1c":"sagen"
+},
+    
+     "cont": {
+        
+        "text1a":"Nachdenken",
+          "text1b":"über eine",  
+        "text1c":"Veranstaltung?",
+           "text2":"Der Erfolg denier Veranstaltung its auch Unser Erfolg! Entdecke Sie es jetzt, und sende uns eine E-Mail:",
+
+          "form1":"Datum",
+         "form2":"Jetzt",
+          "form3":"Name",
+          "form4":"Telefon",
+"form5":"Email",
+         "form6":"Art der Veranstaltung",
+           "form7":"Anzahl der Teilnehmer",
+        "form8":"Dein Budget",
+          "form9":"City",
+  "form10":"Message"
+}
+}

@@ -1,0 +1,77 @@
+{
+    "home": {
+        "text1": "Vuoi sorprendere",
+        "text2": "i tuoi invitati?",
+        "text3": "Allora il tuo catering siamo Noi!",
+        "text4": "Benvenuti al",
+        "text5": "Catering Di Arabella",
+        "text6": "Dove gastronomia e fantasia si fondono e confondono con amore, passione, professionalità e molto charme",
+        "text7": "Pianificazione, qualità e passione nei dettagli",
+        "text8": "Scopri di più",
+         "text8a": "sui nostri servizi",
+
+           "text9": "Cosa dicono di noi"
+    },
+    "about": {
+        "text1a": "Cultura e peperoncino mordono",
+        "text1b": "passione e amore esaltando",
+        "text1c": "la semplicità che troverete",
+        "text1d": "in ogni nostra ricetta",
+        "text2": "Rispettando le radici culturali di ogni piatto, aggiungendo contemporaneità e modernità",
+       "text3a": " vanta di una vasta e pluriennale esperienza nella ristorazione maturata in Brasile, in particolare per piccoli e medi eventi. Per oltre 14 anni è stata responsabile e alla testa di un team di 75 persone, riuscendo a gestire e offrire servizi catering anche per più di 2700 persone/pasti al giorno in vari segmenti di mercato quali banche, dipartimento della Marina brasiliana, Metro di Rio de Janeiro, per importanti imprese di costruzioni; matrimoni e eventi vari. Allo stesso tempo si dedicava anche alla creazione e allo sviluppo di progetti culturali, collaborando con il MAM di RJ, incoraggiando l'integrazione culturale degli strati sociali meno favoriti attraverso le arti. Creati diversi eventi e progetti con scopi sociali.",
+        "text3b": "Oggi vive felicemente in Svizzera continuando la sua attività di catering fortemente influenzata da quelle esperienze fantastiche che ha portato con sé nel suo bagaglio dal Brasile, dove la passione per una tavola meravigliosa, per la cura e l’amore del cibo e per l’arte sorprendono ogni volta i commensali.",
+        "text3c": "Oggi la sua avventura Gastro Cult Social continua, come pure l’instancabile e costante ricerca necessaria per fare la differenza in ogni lavoro.",
+        "text4":"esperta negli allestimenti e nell`organizzazione di eventi, nativa di Roma porta con se una grande esperienza maturata nei migliori alberghi romani.  Riesce a gestire con energia, passione e professionalità il vostro evento, e il risultato stupisce ogni volta."
+    },
+    
+    
+    "services": {
+        
+        "text1a":"Colazione Special Charming",
+          "text1b":"Coffee Break",  
+        "text1c":"Brunch",
+          "text1d":"Pranzo/Cena",
+          "text1e":"Aperitivo Finger Food",
+          "text1f":"Aperitivo Buffet",
+          "text1g":"Private Party",  
+        "text1h":"Banquet for Wedding",
+          "text1i":"BBQ Premium",
+        "text2a":"Pianificazione,",
+         "text2b":"qualità e passione",
+        "text2c":"nei dettagli che",
+        "text2d":"incantano chiunque",
+        "text3":" Dopo aver analizzato attentamente le esigenze e il profilo del cliente e lo scopo dell'evento, elaboriamo un menù DOC personalizzato che unisce sapori e creatività, combinato con una produzione impeccabile, curata nei minimi dettagli secondo l'occasione, seguendo le tendenze internazionali della cucina sfornando un risultato frutto di una ricerca e viaggi continui.",
+        "text4":" I nostri collaboratori si occuperanno di ogni altro dettaglio",
+        "text5":"Allestimento e decorazione di tavoli, composizioni floreali, rendendo il tuo evento  unico e indimenticabile per te, la tua azienda e i tuoi ospiti.",
+        "text6":"Utilizziamo soltanto prodotti e ingredienti di origine controllata",
+        "text7":"Il nostri dolci e le nostre torte sono prodotti freschi e fatti a casa",
+         "text8":"Non utilizziamo alcun prodotto industrializzato"
+   },
+     "testim": {
+        
+        "text1a":"Cosa",
+          "text1b":"dicono",  
+        "text1c":"di noi"
+},
+     "cont": {
+        
+        "text1a":"Pensando",
+          "text1b":"di avere",  
+        "text1c":"un evento?",
+         "text2":"Il successo de tuo evento è anche nostro! Scoprilo ora inviandoci un email:",
+
+          "form1":"Data",
+         "form2":"Ora",
+          "form3":"Nome",
+          "form4":"Telefono",
+"form5":"Email",
+         "form6":"Tipo di evento",
+           "form7":"Numero di partecipanti",
+        "form8":"Il tuo budget",
+          "form9":"Città",
+  "form10":"Messaggio"
+
+
+
+}
+}

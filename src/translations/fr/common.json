@@ -1,0 +1,82 @@
+
+{
+    "home": {
+        "text1": "Voulez vous surp",
+        "text2": "rendre vos invités?",
+        "text3": "Donc, votre catering est Nous!",
+        "text4": "Bienvenue dans la",
+        "text5": "Catering Di Arabella",
+         "text6": "Où la gastronomie et l'imagination se fondent et se mélangent avec l'amour, la passion et le professionnalisme avec beacoup des Charme!",
+         "text7": "Planification, qualité et passion dans les détails",
+        "text8": "En savoir plus",
+        "text8a": "sur nos services",
+
+         "text9": "Ce qu'ils disent de nous"
+ },
+     "about": {
+        "text1a": "Culture et peperoncino mordent",
+        "text1b": "la passion et l'amour, en",
+        "text1c": "améliorant la simplicité que vous",
+        "text1d": "trouverez dans toutes nos recettes",
+        "text2": "En respectant les racines culturelles de chaque plat, en ajoutant la modernité et la modernité",
+          "text3a": " bénéficie d'une expérience vaste et pluriannuelle dans la restauration au Brésil, en particulier pour les événements de petite et moyenne taille. Depuis plus de 14 ans, elle est responsable et dirige une équipe de 75 personnes, gérant et offrant des services de restauration pour plus de 2700 personnes / repas par jour dans divers segments de marché tels que les banques, le département de la Marine brésilienne, Metro à Rio de Janeiro, pour les grandes entreprises de construction; mariages et événements divers. En même temps, il s'est également consacré à la création et au développement de projets culturels, en collaborant avec le MAM de RJ, en encourageant l'intégration culturelle des couches sociales défavorisées à travers les arts. Création de différents événements et projets à des fins sociales.",
+        "text3b": "Aujourd'hui, elle vie heureux en Suisse en continuant son activité de traiteur fortement influencé par ces expériences fantastiques qu'il a apportées avec elle dans ses bagages du Brésil, où la passion pour une table merveilleuse, pour le soin et l'amour de la nourriture et de l'art ils surprennent les invités à chaque fois.",
+        "text3c": "Aujourd'hui, son aventure Gastro Cult Social continue, ainsi que la recherche infatigable et constante nécessaire pour faire la différence dans chaque travail.",
+         "text4": "experte dans la mise en place et l'organisation d'événements, originaire de Rome apporte avec elle une grande expérience acquise dans les meilleurs hôtels romains. Il gère votre événement avec énergie, passion et professionnalisme, et le résultat surprend à chaque fois."
+    },
+    
+     
+    "services": {
+        
+        "text1a":"Petit déjeuner Special Charming",
+          "text1b":"Coffee Break",  
+        "text1c":"Brunch",
+          "text1d":"Déjeuner et dîner",
+          "text1e":"Finger Food Aperò",
+          "text1f":"Buffet Aperò",
+          "text1g":"Private Party",  
+        "text1h":"Banquet for Wedding",
+          "text1i":"BBQ Premium",
+        "text2a":"Planification, qualité",
+         "text2b":"et passion dans les",
+         "text2c":"détails qui enchanteront",
+         "text2d":"tout le monde",
+        "text3": "Après avoir soigneusement analysé les besoins et le profil du client et le but de l'événement, nous développons un menu DOC personnalisé qui allie saveurs et créativité, allié à une production impeccable, soigné dans les moindres détails selon l'occasion, suivant les tendances internationales de la cuisine débouchant sur un résultat d'une recherche et de voyages continus.",
+        "text4":"Notre personnel prendra soin de tous les autres détails",
+        "text5":"La préparation et la décoration des tables, des arrangements floraux, rendant votre événement unique et inoubliable pour vous, votre entreprise et vos invités.",
+         "text6":"Nous utilisons uniquement des produits et ingrédients d'origine contrôlée",
+        "text7":"Nos desserts et nos gâteaux sont des produits frais et artisanaux",
+        "text8":"Nous n'utilisons aucun produit industrialisé"
+        
+        
+    },
+     "testim": {
+        
+        "text1a":"Ce qu'ils",
+          "text1b":"disent",  
+        "text1c":"de nous"
+},
+    
+     "cont": {
+        
+        "text1a":"Penser",
+          "text1b":"à avoir un",  
+        "text1c":"événement?",
+                  "text2":"Le succès de votre événement est aussi le notre! Découvrez-le maintenant en nous envoyant un email:",
+
+          "form1":"Date",
+         "form2":"Maintenant",
+          "form3":"Prenom",
+          "form4":"Téléphone",
+"form5":"Email",
+         "form6":"Type d'événement",
+           "form7":"Nombre de participants",
+        "form8":"Votre budget",
+          "form9":"Ville",
+  "form10":"Message"
+
+}
+}
+
+
+
