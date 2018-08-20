@@ -7,7 +7,6 @@ import Textservices from './Textservices';
 import s6 from '../img/s6.jpg';
 import h23 from '../img/home/h23.jpg';
 import h19 from '../img/home/h19.jpg';
-import cat from '../img/cateringdiarabella_2.jpg';
 
 
 import Swiper from 'react-id-swiper';
@@ -257,13 +256,13 @@ loop:true,
     
      <ImageZoom
         image={{
-          src: {cat},
+          src:'%PUBLIC_URL%/cateringdiarabella_2th.jpg',
           alt: 'Catering di Arabella',
           className: '',
           style: { width: '' }
         }}
         zoomImage={{
-          src: {cat},
+          src:'%PUBLIC_URL%/cateringdiarabella_2.jpg',
           alt: 'Catering di Arabella'
         }}
       />

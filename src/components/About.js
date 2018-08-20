@@ -6,11 +6,9 @@ import {NavLink} from 'react-router-dom';
 
 import Zoom from './Zoom';
 import { Parallax } from 'react-parallax';
-import arabella from '../img/cateringdiarabella_1.jpg
 import f7 from '../img/gallery/food/f7.jpg';
 import ScrollToTopOnMount from './ScrollToTopOnMount';
-import s12th from '../img/s12th.jpg'
-import s12 from '../img/s12.jpg'
+
 
 import Textabout from './Textabout';
    import { translate, Trans } from 'react-i18next';
@@ -59,13 +57,13 @@ class About extends React.Component {
 
     <ImageZoom
         image={{
-          src: {s12th},
+          src:'%PUBLIC_URL%/img/s12th.jpg',
           alt: 'Catering di Arabella',
           className: '',
           style: { width: '' }
         }}
         zoomImage={{
-          src: {s12},
+          src:'%PUBLIC_URL%/img/s12.jpg',
           alt: 'Catering di Arabella'
         }}
       />
@@ -125,18 +123,19 @@ class About extends React.Component {
         <div className="col-md-2 offset-md-7 offset-2 col-8">
  <Reveal effect="fadeInUp"> 
    <Zoom />
-    <ImageZoom
+     <ImageZoom
         image={{
-          src:{arabella},
+          src:'%PUBLIC_URL%/img/cateringdiarabella_1th.jpg',
           alt: 'Catering di Arabella',
           className: '',
           style: { width: '' }
         }}
         zoomImage={{
-          src: {arabella},
+          src:'%PUBLIC_URL%/img/cateringdiarabella_1.jpg',
           alt: 'Catering di Arabella'
         }}
       />
+    
     
   </Reveal>
 </div>
