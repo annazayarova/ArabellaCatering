@@ -19,7 +19,7 @@ import Textcontact from './Textcontact';
 class Contact extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { name: "", email: "", message: "" };
+      this.state = { date: "", hour: "", name: "", tel: "", email: "",type: "", number: "", budget: "", city: "", message: "" };
     }
 
 
@@ -29,7 +29,7 @@ class Contact extends React.Component {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": "contact", ...this.state })
       })
-        .then(() => alert("Success!"))
+        .then(() => alert("Success! Thanks"))
         .catch(error => alert(error));
 
       e.preventDefault();
@@ -40,7 +40,7 @@ class Contact extends React.Component {
    
     
     render() {
-            const { name, email, message } = this.state;
+            const {date, hour, name, tel, email,type, number, budget, city, message } = this.state;
  
        const { t, i18n } = this.props;
       return (
