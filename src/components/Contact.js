@@ -80,13 +80,13 @@ class Contact extends React.Component {
       <div className="col-md-6">
        <div className="form-group ">
         <label for="date">{ this.props.t('cont.form1')}</label>
-        <input type="text" className="form-control" name="date" />
+        <input type="text" className="form-control" name="date" value={date} onChange={this.handleChange} />
     </div>
      </div>
                    <div className="col-md-6">
          <div className="form-group ">
         <label for="hour">{ this.props.t('cont.form2')}</label>
-        <input type="text" className="form-control" name="hour"  />
+        <input type="text" className="form-control" name="hour" value={hour} onChange={this.handleChange} />
     </div>    </div>
         
            <div className="col-md-6">
@@ -97,7 +97,7 @@ class Contact extends React.Component {
         <div className="col-md-6">
          <div className="form-group">
         <label for="tel">{ this.props.t('cont.form4')}</label>
-        <input type="text" className="form-control" name="tel"  />
+        <input type="text" className="form-control" name="tel"  value={tel} onChange={this.handleChange} />
     </div>  </div>
         
                    <div className="col-md-12">
@@ -108,25 +108,25 @@ class Contact extends React.Component {
          <div className="col-md-12 ">
         <div className="form-group">
         <label for="type">{ this.props.t('cont.form6')}</label>
-        <input type="text" className="form-control" name="type"  />
+        <input type="text" className="form-control" name="type"  value={type} onChange={this.handleChange} />
     </div>    </div>
            
                 <div className="col-md-6">
         
          <div className="form-group">
         <label for="number">{ this.props.t('cont.form7')}</label>
-        <input type="text" className="form-control" name="number"  />
+        <input type="text" className="form-control" name="number"  value={number} onChange={this.handleChange} />
     </div></div>
                         <div className="col-md-6">
          <div className="form-group">
         <label for="budget">{ this.props.t('cont.form8')}</label>
-        <input type="text" className="form-control" name="budget"  />
+        <input type="text" className="form-control" name="budget"  value={budget} onChange={this.handleChange} />
     </div>    </div>
         
                       <div className="col-md-12">
           <div className="form-group">
         <label for="city">{ this.props.t('cont.form9')}</label>
-        <input type="text" className="form-control" name="city"  />
+        <input type="text" className="form-control" name="city"  value={city} onChange={this.handleChange} />
     </div></div>
         
         

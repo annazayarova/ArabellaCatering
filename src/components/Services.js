@@ -255,8 +255,17 @@ loop:true,
     
     <Zoom />
     
-     <img
-          src={cat}
+     <ImageZoom
+        image={{
+          src: {cat},
+          alt: 'Catering di Arabella',
+          className: '',
+          style: { width: '' }
+        }}
+        zoomImage={{
+          src: {cat},
+          alt: 'Catering di Arabella'
+        }}
       />
     
   </Reveal></div>
