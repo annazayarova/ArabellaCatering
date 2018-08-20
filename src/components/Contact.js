@@ -10,13 +10,38 @@ import Textcontact from './Textcontact';
 
 
 
-  
+    const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
 class Contact extends React.Component {
-    
+    constructor(props) {
+      super(props);
+      this.state = { name: "", email: "", message: "" };
+    }
+
+
+    handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
+      })
+        .then(() => alert("Success!"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
+    };
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
    
     
     render() {
-       
+            const { name, email, message } = this.state;
+ 
        const { t, i18n } = this.props;
       return (
   <div className="main-content">
@@ -47,7 +72,7 @@ class Contact extends React.Component {
 <h5 className="cont">{ this.props.t('cont.text2')}</h5>
     </Fade>
      <Fade delay={400} cascade>        
-<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/about">
+        <form onSubmit={this.handleSubmit}>
               <input type="hidden" name="form-name" value="contact" />
 
     <div className='container-fluid'>
@@ -67,7 +92,7 @@ class Contact extends React.Component {
            <div className="col-md-6">
          <div className="form-group">
         <label for="name">{ this.props.t('cont.form3')}</label>
-        <input type="text" className="form-control" name="name" />
+        <input type="text" className="form-control" name="name" value={name} onChange={this.handleChange}  />
     </div>   </div>
         <div className="col-md-6">
          <div className="form-group">
@@ -78,7 +103,7 @@ class Contact extends React.Component {
                    <div className="col-md-12">
          <div className="form-group">
         <label for="email">{ this.props.t('cont.form5')}</label>
-        <input type="email" className="form-control" name="email"  />
+        <input type="email" className="form-control" name="email" value={email} onChange={this.handleChange}   />
     </div>    </div>
          <div className="col-md-12 ">
         <div className="form-group">
@@ -90,7 +115,7 @@ class Contact extends React.Component {
         
          <div className="form-group">
         <label for="number">{ this.props.t('cont.form7')}</label>
-        <input type="text" className="form-control" name="number_of_persons"  />
+        <input type="text" className="form-control" name="number"  />
     </div></div>
                         <div className="col-md-6">
          <div className="form-group">
@@ -109,7 +134,7 @@ class Contact extends React.Component {
                          <div className="col-md-12">
     <div className="form-group">
         <label for="message">{ this.props.t('cont.form10')}</label>
-        <textarea className="form-control" rows="5" name="message" ></textarea>
+        <textarea className="form-control" rows="5" name="message" value={message} onChange={this.handleChange}  ></textarea>
     </div>    </div></div></div>
     
     <button type="submit" className="send">Send</button>
