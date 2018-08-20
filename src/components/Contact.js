@@ -7,7 +7,6 @@ import Fade from 'react-reveal/Fade';
 
 import Textcontact from './Textcontact';
 
-import axios from 'axios';
 
 
 
