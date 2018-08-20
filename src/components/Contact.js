@@ -47,7 +47,7 @@ class Contact extends React.Component {
 <h5 className="cont">{ this.props.t('cont.text2')}</h5>
     </Fade>
      <Fade delay={400} cascade>        
-<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/about">
               <input type="hidden" name="form-name" value="contact" />
 
     <div className='container-fluid'>
@@ -55,53 +55,53 @@ class Contact extends React.Component {
       <div className="col-md-6">
        <div className="form-group ">
         <label for="date">{ this.props.t('cont.form1')}</label>
-        <input type="text" className="form-control" name="date" onChange={this.handleChange} />
+        <input type="text" className="form-control" name="date" />
     </div>
      </div>
                    <div className="col-md-6">
          <div className="form-group ">
         <label for="hour">{ this.props.t('cont.form2')}</label>
-        <input type="text" className="form-control" name="hour"  onChange={this.handleChange} />
+        <input type="text" className="form-control" name="hour"  />
     </div>    </div>
         
            <div className="col-md-6">
          <div className="form-group">
         <label for="name">{ this.props.t('cont.form3')}</label>
-        <input type="text" className="form-control" name="name"  onChange={this.handleChange} />
+        <input type="text" className="form-control" name="name" />
     </div>   </div>
         <div className="col-md-6">
          <div className="form-group">
         <label for="tel">{ this.props.t('cont.form4')}</label>
-        <input type="text" className="form-control" name="tel"  onChange={this.handleChange} />
+        <input type="text" className="form-control" name="tel"  />
     </div>  </div>
         
                    <div className="col-md-12">
          <div className="form-group">
         <label for="email">{ this.props.t('cont.form5')}</label>
-        <input type="email" className="form-control" name="email"   onChange={this.handleChange} />
+        <input type="email" className="form-control" name="email"  />
     </div>    </div>
          <div className="col-md-12 ">
         <div className="form-group">
         <label for="type">{ this.props.t('cont.form6')}</label>
-        <input type="text" className="form-control" name="type"  onChange={this.handleChange} />
+        <input type="text" className="form-control" name="type"  />
     </div>    </div>
            
                 <div className="col-md-6">
         
          <div className="form-group">
         <label for="number">{ this.props.t('cont.form7')}</label>
-        <input type="text" className="form-control" name="number"  onChange={this.handleChange} />
+        <input type="text" className="form-control" name="number_of_persons"  />
     </div></div>
                         <div className="col-md-6">
          <div className="form-group">
         <label for="budget">{ this.props.t('cont.form8')}</label>
-        <input type="text" className="form-control" name="budget"  onChange={this.handleChange} />
+        <input type="text" className="form-control" name="budget"  />
     </div>    </div>
         
                       <div className="col-md-12">
           <div className="form-group">
         <label for="city">{ this.props.t('cont.form9')}</label>
-        <input type="text" className="form-control" name="city"  onChange={this.handleChange} />
+        <input type="text" className="form-control" name="city"  />
     </div></div>
         
         
@@ -109,7 +109,7 @@ class Contact extends React.Component {
                          <div className="col-md-12">
     <div className="form-group">
         <label for="message">{ this.props.t('cont.form10')}</label>
-        <textarea className="form-control" rows="5" name="message"  onChange={this.handleChange}></textarea>
+        <textarea className="form-control" rows="5" name="message" ></textarea>
     </div>    </div></div></div>
     
     <button type="submit" className="send">Send</button>
