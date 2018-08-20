@@ -47,7 +47,7 @@ class Contact extends React.Component {
 <h5 className="cont">{ this.props.t('cont.text2')}</h5>
     </Fade>
      <Fade delay={400} cascade>        
-<form name="contact" method="POST" >
+<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="contact" />
 
     <div className='container-fluid'>
