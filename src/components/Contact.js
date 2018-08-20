@@ -47,7 +47,9 @@ class Contact extends React.Component {
 <h5 className="cont">{ this.props.t('cont.text2')}</h5>
     </Fade>
      <Fade delay={400} cascade>        
-            <form id="contact-form" >
+<form name="contact" method="POST" >
+              <input type="hidden" name="form-name" value="contact" />
+
     <div className='container-fluid'>
 <div className="row">
       <div className="col-md-6">
