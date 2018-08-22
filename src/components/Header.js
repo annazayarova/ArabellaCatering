@@ -26,7 +26,7 @@ class Header extends React.Component {
     
 
 
- const lang = location.pathname === '/gallery' ? { color: 'rgba(255,255,255,0.4)'} : { color: 'rgba(48,58,78,.4)' };
+ const lang = location.pathname === '/gallery' ? { color: '#fff'} : { color: '#333B50' };
     const headerbg = location.pathname === '/gallery' ? { background: 'none'} : { background: 'white' };
      const dark = location.pathname === '/gallery' ? { fill: 'white'} : { fill: '#333B50' }
     const light = location.pathname === '/gallery' ? { fill: 'white'} : { fill: '#a23733' }

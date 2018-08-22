@@ -684,14 +684,13 @@ img, svg{width: 100%}
 .lang{position: absolute; left:50px; top:40px;height: 40px;line-height: 40px;  z-index: 99999; }
 .lang button{    -webkit-appearance: none;
     -moz-appearance: none;box-shadow: none;cursor: pointer; border: none;font-size: 13px; text-transform: uppercase; color: var(--saffron);position: relative;  background: none; margin: 0;padding: 0 20px 0 0;transition: 0.3s cubic-bezier(0.07, 0.51, 0.12, 1);-webkit-transition: 0.3s cubic-bezier(0.07, 0.51, 0.12, 1); }
-.lang button:after{content: ''; position: absolute; width: 15px; height: 1px; background: var(--dark-2);top:8px;right:3px}
-.lang button:active, .lang button:focus{color: var(--dark); border: none; box-shadow: none; outline: none}
+.lang button:after{content: ''; position: absolute; width: 15px; height: 1px; background: var(--dark-4);top:8px;right:3px}
+.lang button:active, .lang button:focus{color: var(--saffron); border: none; box-shadow: none; outline: none}
 .last:after{display: none}
 @media only screen and (max-width: 768px) {
     .lang{left:auto; right: 15px;top:5px;}
 
 }
-.lang .active{color:  var(--dark) }
 .lang button:hover{color: var(--dark)}
 .burger-menu,
 .burger-menu.open {transition: 0.3s cubic-bezier(0.07, 0.51, 0.12, 1);-webkit-transition: 0.3s cubic-bezier(0.07, 0.51, 0.12, 1);
