@@ -8,8 +8,7 @@ import Zoom from './Zoom';
 import { Parallax } from 'react-parallax';
 import f7 from '../img/gallery/food/f7.jpg';
 import ScrollToTopOnMount from './ScrollToTopOnMount';
-import s12th from '../img/s12th.jpg'
-import s12 from '../img/s12.jpg'
+
 
 import Textabout from './Textabout';
    import { translate, Trans } from 'react-i18next';
