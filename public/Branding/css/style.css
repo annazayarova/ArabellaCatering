@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'ABeeZee', sans-serif;
+    @import url(//fonts.googleapis.com/css?family=Open+Sans);
+    
+    font-family: 'ButlerRegular'; 
+}
+
+html, body {position: relative; height: 100%;}
+
+.cookeryphoto {text-decoration: none; letter-spacing: 1px; text-align: center; margin: 0em auto; font-size: 10pt; color: #666; font-style: normal}
+
+.cookeryphoto:hover{color: #000}
+
+.download {text-decoration: none; text-transform: uppercase; letter-spacing: 2px; text-align: center; margin: 0em auto 0;  font-size: 10pt; color: #818897; font-style: ; padding-bottom: 0.2em}
+
+.download:hover{color: #CA3A44}
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+html * {
+-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+body {-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased; 
+ }
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::after, *::before {
+  content: '';
+}
+
+html {width:100%; height:100%; 
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body, html {font-family:'ABeeZee', sans-serif; height:100%}
+
+body {width:100%;position:relative; margin:0; padding:0; height: 100%; font-family:'ABeeZee', sans-serif}
+
+.bg {position:fixed; top:0; left:0;width: 100% ;height: 100%; background: url(../img/background.png) no-repeat #fff top center;background-size: cover; -webkit-background-size:cover;z-index: -1}
+
+h1 {position:relative; font-family: 'ButlerRegular'; color:#2D3951; margin:1em 0 0.5em; text-align:center; font-size:1.6em; line-height:1.1em;font-weight:normal; letter-spacing: 1px; text-transform: uppercase;}
+
+h2 {position:relative; font-family: 'ButlerRegular'; color:#CA3A44; margin:1em 0 0.5em; text-align:center; font-size:1.3em; line-height:1.1em;font-weight:normal; letter-spacing: 1px; text-transform: none;}
+
+ul {margin: 0 auto; padding: 0;text-align: center; vertical-align: middle}
+
+ul li {display: inline-block; padding-top: 50px; margin: 3em 1em 3em 1em; font-size:14px; letter-spacing: 1px; color: #ffffff; font-weight:bold; vertical-align: middle}
+.box0{width: 100px; height: 300px; background: #D5CBCD}
+.box1{width: 100px; height: 200px}
+.box2{width: 200px; height: 400px}
+
+.fixed {position:fixed; top:0; left: 0; width: 100%; height: 100%;background: url(../img/textura.png) top left; background-size: cover;-webkit-background-size:cover;z-index: -1} 
+
+p {font-size:1.1em; line-height:1em;letter-spacing: 2px; color:#282828; text-align:center; margin:0 ;padding:0 0 0.5em; font-family:'ABeeZee', sans-serif}
+
+.space {width: 100%; height: 4em; position: relative}
+::-moz-selection {
+    background: #5fb7b6;
+    text-shadow: none;
+}
+
+::selection {
+    background: #5fb7b6;
+    text-shadow: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+img{width:100%;display:block }
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.one {z-index: 100; width: 66%; text-align:center; background: #fff; margin: 2em auto 2em; padding: 1em 10% 4%;  box-shadow: 2px 5px 10px rgba(0,0,0,0.4)}
+
+.one img, .two img{margin-bottom: 4em}
+
+.two {z-index: 100; width: 66%; text-align:center; background: #fff; margin: 1em auto; padding: 8% 10% 4%;  box-shadow: 2px 5px 10px rgba(0,0,0,0.4)}
+
+.menu {z-index: 100; width: 66%; text-align:center; background: #fff; margin: 1em auto; padding: 2em 4% 4%;  box-shadow: 2px 5px 10px rgba(0,0,0,0.4)}
+
+.menu ul li {padding-top: 0}
+
+.three {z-index: 100; width: 66%; text-align:center; background: #fff; margin: 1em auto; padding: 0;  box-shadow: 2px 5px 10px rgba(0,0,0,0.4); border: 20px solid #fff;}
+
+@media only screen and (max-width: 600px) {
+ .one{width: 90%; margin: 2em auto 1em; padding: 1em 8% 4%;  }
+.two{ width: 90%;  padding: 4% 8% 4%; }
+    .menu{ width: 90%;  padding: 4% 8% 4%; }
+.three{ width: 90%;border: 2px solid #fff;}  
+     .box0{width: 60px; height: 100px; background: }
+    .box1{width: 60px; height: 100px; background: }
+.box2{width: 60px; height: 100px; background: }
+}
