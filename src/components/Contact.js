@@ -1,16 +1,13 @@
 import React from 'react';
+import { translate } from 'react-i18next';
+import ScrollToTopOnMount from './helpers/ScrollToTopOnMount';
 
-import ScrollToTopOnMount from './ScrollToTopOnMount';
 import Fade from 'react-reveal/Fade';
-
-   import { translate, Trans } from 'react-i18next';
-
-import Textcontact from './Textcontact';
+import Textcontact from './helpers/Textcontact';
 
 
 
-
-    const encode = (data) => {
+const encode = (data) => {
     return Object.keys(data)
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
         .join("&");
@@ -42,7 +39,6 @@ class Contact extends React.Component {
     render() {
             const {date, hour, name, tel, email,type, number, budget, city, message } = this.state;
  
-       const { t, i18n } = this.props;
       return (
   <div className="main-content">
 

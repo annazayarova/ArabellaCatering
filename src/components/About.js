@@ -3,18 +3,16 @@ import Fade from "react-reveal/Fade";
 import Reveal from "react-reveal/Reveal";
 import ImageZoom from "react-medium-image-zoom";
 import { NavLink } from "react-router-dom";
-
-import Zoom from "./Zoom";
 import { Parallax } from "react-parallax";
-import f7 from "../img/gallery/food/f7.jpg";
-import ScrollToTopOnMount from "./ScrollToTopOnMount";
+import { translate } from "react-i18next";
 
-import Textabout from "./Textabout";
-import { translate, Trans } from "react-i18next";
+import Zoom from "./helpers/Zoom";
+import ScrollToTopOnMount from "./helpers/ScrollToTopOnMount";
+import Textabout from "./helpers/Textabout";
+import f7 from "../img/gallery/food/f7.jpg";
 
 class About extends React.Component {
   render() {
-    const { t, i18n } = this.props;
     return (
       <div className="main-content about">
         <ScrollToTopOnMount />
